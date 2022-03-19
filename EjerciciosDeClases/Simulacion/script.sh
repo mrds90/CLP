@@ -1,3 +1,5 @@
+ghdl -a ../Fuentes/sum1b.vhd
+ghdl -s ../Fuentes/sum1b.vhd
 ghdl -a ../Fuentes/sum4b.vhd ../Fuentes/sum4b_tb.vhd
 ghdl -s ../Fuentes/sum4b.vhd ../Fuentes/sum4b_tb.vhd
 ghdl -e sum4b_tb
