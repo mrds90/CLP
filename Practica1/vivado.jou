@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Apr 15 13:19:48 2022
+# Process ID: 4708
+# Current directory: D:/Repositorios/CLP/Practica1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6340 D:\Repositorios\CLP\Practica1\project_1.xpr
+# Log file: D:/Repositorios/CLP/Practica1/vivado.log
+# Journal file: D:/Repositorios/CLP/Practica1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Repositorios/CLP/Practica1/project_1.xpr
+import_files -norecurse D:/Repositorios/CLP/Practica1/ArchivosParaLaPractica/lab1.vhd
+update_compile_order -fileset sources_1
+add_files -fileset constrs_1 -norecurse D:/Repositorios/CLP/Practica1/ArchivosParaLaPractica/lab1_ArtyZ7_10.xdc
+import_files -fileset constrs_1 D:/Repositorios/CLP/Practica1/ArchivosParaLaPractica/lab1_ArtyZ7_10.xdc
+synth_design -rtl -name rtl_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse D:/Repositorios/CLP/Practica1/ArchivosParaLaPractica/lab1_tb.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property -name {xsim.simulate.runtime} -value {200ns} -objects [get_filesets sim_1]
+update_ip_catalog
+launch_simulation
+source lab1_tb.tcl
+run 500 ns
+close_sim
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+close_design
+open_run impl_1
+close_design
+launch_simulation -mode post-implementation -type timing
+source lab1_tb.tcl
+close_sim
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
