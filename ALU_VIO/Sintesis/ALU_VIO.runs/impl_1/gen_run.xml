@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1650135148">
+  <File Type="PWROPT-DCP" Name="alu_vio_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="alu_vio_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="alu_vio.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="alu_vio_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="alu_vio_reports.tcl"/>
+  <File Type="BG-DRC" Name="alu_vio.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="alu_vio_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="alu_vio_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="alu_vio.hwdef"/>
+  <File Type="OPT-DCP" Name="alu_vio_opt.dcp"/>
+  <File Type="OPT-DRC" Name="alu_vio_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="alu_vio_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="alu_vio_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="alu_vio_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="alu_vio_placed.dcp"/>
+  <File Type="PLACE-IO" Name="alu_vio_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="alu_vio_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="alu_vio_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="alu_vio_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="alu_vio_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="alu_vio_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="alu_vio_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="alu_vio_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="alu_vio_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="alu_vio_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="alu_vio_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="alu_vio_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="alu_vio.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="alu_vio_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="alu_vio_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="alu_vio_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="alu_vio_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="alu_vio_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="alu_vio_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="alu_vio.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="alu_vio_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="alu_vio.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="alu_vio_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="alu_vio.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="alu_vio_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="alu_vio.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="alu_vio_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="alu_vio_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="alu_vio_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="alu_vio_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="alu_vio_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="alu_vio_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="alu_vio_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="alu_vio_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="alu_vio.vdi"/>
+  <File Type="ROUTE-CLK" Name="alu_vio_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="alu_vio_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="alu_vio_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="alu_vio_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="alu_vio_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="alu_vio_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="alu_vio.nky"/>
+  <File Type="BITSTR-BMM" Name="alu_vio_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="alu_vio.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="alu_vio.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="alu_vio.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/ALU/Fuentes/alu.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ALU/Fuentes/alu.vhd"/>
+        <Attr Name="ImportTime" Val="1650132973"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ALU/VIO/Fuentes/alu_vio.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Fuentes/alu_vio.vhd"/>
+        <Attr Name="ImportTime" Val="1650133764"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="alu_vio"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Fuentes/Arty-Z7-10-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Fuentes/Arty-Z7-10-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1650131980"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="vio_0"/>
+</GenRun>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Apr 16 15:52:31 2022
+# Process ID: 9748
+# Current directory: D:/Repositorios/CLP/ALU_VIO/Sintesis/ALU_VIO.runs/synth_1
+# Command line: vivado.exe -log alu_vio.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source alu_vio.tcl
+# Log file: D:/Repositorios/CLP/ALU_VIO/Sintesis/ALU_VIO.runs/synth_1/alu_vio.vds
+# Journal file: D:/Repositorios/CLP/ALU_VIO/Sintesis/ALU_VIO.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source alu_vio.tcl -notrace
