@@ -9,7 +9,7 @@ architecture alu_arq of alu_tb is
 
   component alu is
     generic (
-      N : natural := 8
+      N : natural := 4
     );
     port (
       clk : in std_logic;

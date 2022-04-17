@@ -4,7 +4,7 @@ use IEEE.numeric_std.all;
 
 entity alu is
   generic (
-    N : natural := 8
+    N : natural := 4
   );
   port (
     clk : in std_logic;

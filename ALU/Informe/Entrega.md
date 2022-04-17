@@ -17,6 +17,9 @@ Las instrucciones de la ALU son:
 - **XNOR**: Operación lógica XNOR entre dos operandos y almacena el resultado en el registro de resultado.
 - **NOT**: Operación lógica NOT entre un operando y almacena el resultado en el registro de resultado.
 
+## Esquematico
+
+![alt text](Figuras/Schematic.png)
 
 ## Simulaciones
 
@@ -46,3 +49,7 @@ El desplazamiento signado a la derecha utiliza el carry in como indicador de sig
 A continuación se muestra el comportamiento de la operación AND. Ninguna de las operaciones lógicas usa los carries.
 
 ![alt text](Figuras/AndOperatorSimulation.png)
+
+### USO DE RECURSOS
+
+![alt text](Figuras/Resourses.png)
