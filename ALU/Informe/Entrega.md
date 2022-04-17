@@ -19,7 +19,7 @@ Las instrucciones de la ALU son:
 
 ## Esquematico
 
-![alt text](Figuras/Schematic.png)
+![alt text](Figuras/ALUSchematic.png)
 
 ## Simulaciones
 
@@ -52,4 +52,4 @@ A continuación se muestra el comportamiento de la operación AND. Ninguna de la
 
 ### USO DE RECURSOS
 
-![alt text](Figuras/Resourses.png)
+![alt text](Figuras/ALUResourses.png)
