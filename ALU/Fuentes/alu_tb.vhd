@@ -34,13 +34,13 @@ architecture alu_arq of alu_tb is
 
 begin
   clk <= not clk after 10 ns;
-  -- a_tb <= std_logic_vector(unsigned(a_tb) + to_unsigned(1, N_tb)) after 20 ns;
-  -- b_tb <= std_logic_vector(unsigned(b_tb) + to_unsigned(1, N_tb)) after 160 ns;
+  a_tb <= std_logic_vector(unsigned(a_tb) + to_unsigned(1, N_tb)) after 20 ns;
+  b_tb <= std_logic_vector(unsigned(b_tb) + to_unsigned(1, N_tb)) after 320 ns;
 
-  a_tb <= std_logic_vector(to_unsigned(7,N_tb)) after 20 ns, std_logic_vector(to_unsigned(8,N_tb)) after 50 ns , std_logic_vector(to_unsigned(6,N_tb)) after 70 ns;
-  b_tb <= std_logic_vector(to_unsigned(3,N_tb)) after 20 ns, std_logic_vector(to_unsigned(2,N_tb)) after 50 ns , std_logic_vector(to_unsigned(4,N_tb)) after 70 ns;
-  ci_tb <= not ci_tb after 1280 ns;
-  opcode_tb <= "1101";
+  -- a_tb <= std_logic_vector(to_unsigned(8,N_tb)) after 40 ns, std_logic_vector(to_unsigned(3,N_tb)) after 100 ns , std_logic_vector(to_unsigned(6,N_tb)) after 160 ns;
+  -- b_tb <= std_logic_vector(to_unsigned(3,N_tb)) after 40 ns, std_logic_vector(to_unsigned(1,N_tb)) after 100 ns , std_logic_vector(to_unsigned(1,N_tb)) after 160 ns;
+  ci_tb <= not ci_tb after 5120 ns;
+  opcode_tb <= "0111";
   DUT : alu
   generic map(
     N => N_tb
